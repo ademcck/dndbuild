@@ -1,0 +1,84 @@
+/* CustomDeleteNode.css */
+.alert-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .alert-content {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    max-width: 450px;
+    max-height: 85vh;
+    padding: 25px;
+    animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .alert-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  
+  .alert-description {
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .alert-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+  }
+  
+  .cancel-button {
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #e5e5e5;
+    color: #1a1a1a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .delete-button {
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .delete-button:hover {
+    background-color: #dc2626;
+  }
+  
+  @keyframes overlayShow {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
