@@ -32,6 +32,12 @@ A modern and intuitive **Drag & Drop Website Builder** that allows users to crea
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
+## 📸 Screenshots
+
+![Screenshot 1](Screenshots/sc1.png)
+![Screenshot 2](Screenshots/sc2.png)
+![Screenshot 3](Screenshots/sc3.png)
+![Screenshot 4](Screenshots/sc4.png)
 
 ## 📖 Usage
 
